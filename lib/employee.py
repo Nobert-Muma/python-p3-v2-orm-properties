@@ -17,7 +17,7 @@ class Employee:
     def __repr__(self):
         return (
             f"<Employee {self.id}: {self.name}, {self.job_title}, " +
-            f"Department: {self.department.name}>"
+            f"Department: {self.department_id}>"
         )
     
     @property
